@@ -1,16 +1,18 @@
+"use strict";
+/* WHILE LOOP */
+// let triangle = "#";
 
-let triangle = "#";
+// while ( triangle.length <=7) {
+//     console.log(triangle); 
+//     triangle += "#";
+// }
 
-while ( triangle.length <=7) {
-    console.log(triangle); 
-    triangle += "#";
-}
+// console.log("\n");
+/*FOR LOOP*/
 
-console.log("\n");
-
-for (let triangle = "#"; triangle.length < 8; triangle += "#"){
-    console.log(triangle);
-}
+// for (let triangle = "#"; triangle.length < 8; triangle += "#"){
+//     console.log(triangle);
+// }
 
 //triangle.length could be less and equal to 7
 
@@ -22,9 +24,8 @@ Do loop always executes its body at least once, and it starts testing whether it
 only after that first execution
 */
 
+let triangle = "#";
 do {
-    let triangle = "#";
-} while (triangle.length <= 7) {
+    console.log(triangle)
     triangle += "#";
-}
-console.log(triangle);
+} while (triangle.length <= 7)
